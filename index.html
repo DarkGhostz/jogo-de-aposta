@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" class="icon" href="./image/icon.jpg">
+    <title>Cara ou Coroa</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cara ou Coroa</h1>
+        <div id="saldo">Seu saldo atual é de 0 moedas.</div>
+        <div id="adicionarMoedas">
+            <label for="moedas">Quantas moedas você deseja adicionar?</label>
+            <input type="number" id="moedas" >
+            <button class="button" onclick="adicionarMoedas()">Adicionar Moedas</button>
+        </div>
+        <div id="apostar">
+            <label for="aposta">Quanto você deseja apostar?</label>
+            <input type="number" id="aposta">
+            <label for="escolha">Escolha 'cara' ou 'coroa'</label>
+            <select id="escolha">
+                <option value="cara">Cara</option>
+                <option value="coroa">Coroa</option>
+            </select>
+            <button onclick="jogar()">Jogar</button>
+        </div>
+        <div id="resultado"></div>
+        <button class="sair" id="sair" onclick="sair()">Sair</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

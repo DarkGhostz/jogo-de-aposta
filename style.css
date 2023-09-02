@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#saldo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#adicionarMoedas,
+#apostar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 35px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#sair {
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+#sair:hover {
+    background-color: #c82333;
+}
+
+.button{
+    margin-top: -1px;
+}
+
+.sair{
+    margin-top: -1px;
+}
